@@ -1,0 +1,20 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+
+repositories {
+
+    jcenter()
+    maven { url 'https://jitpack.io' }
+}
+
+
+dependencies {
+      
+   compile 'com.github.Atzen2:easyClientSocket:v0.1'
+   compile 'com.github.Atzen2:textAreaWriter:v0.1.1'
+}
+
+
+mainClassName = 'gui.Gui'
