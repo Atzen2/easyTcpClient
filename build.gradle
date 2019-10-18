@@ -12,8 +12,8 @@ repositories {
 
 dependencies {
       
-   compile 'com.github.Atzen2:easyClientSocket:v0.1'
-   compile 'com.github.Atzen2:textAreaWriter:v0.1.1'
+   compile 'com.github.atz3n:easyClientSocket:v0.1'
+   compile 'com.github.atz3n:textAreaWriter:v0.1.1'
 }
 
 
